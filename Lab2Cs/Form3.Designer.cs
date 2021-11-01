@@ -40,7 +40,7 @@ namespace Lab2Cs
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Task2";
             this.ResumeLayout(false);
 
         }
