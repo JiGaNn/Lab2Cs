@@ -41,23 +41,25 @@ namespace Lab2Cs
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 15);
+            this.label1.Location = new System.Drawing.Point(21, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
+            this.label1.Size = new System.Drawing.Size(514, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Дано натуральное число 1≤n≤9999, определяющее стоимость товара в копейках. Вырази" +
+    "ть\r\nстоимость в рублях и копейках, например, 3 рубля 21 копейка, 15 рублей 5 коп" +
+    "еек, 1 рубль\r\nровно и т. п.";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(275, 277);
+            this.textBox1.Location = new System.Drawing.Point(241, 101);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(296, 23);
+            this.textBox1.Size = new System.Drawing.Size(92, 23);
             this.textBox1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 280);
+            this.label2.Location = new System.Drawing.Point(18, 104);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(217, 15);
             this.label2.TabIndex = 2;
@@ -65,37 +67,37 @@ namespace Lab2Cs
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(59, 337);
+            this.button1.Location = new System.Drawing.Point(75, 161);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 34);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
+            this.button1.Text = "Преобразовать";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(310, 337);
+            this.button2.Location = new System.Drawing.Point(216, 161);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(169, 34);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 4;
-            this.button2.Text = "button2";
+            this.button2.Text = "Сохранить";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(523, 337);
+            this.button3.Location = new System.Drawing.Point(363, 161);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(169, 34);
+            this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 5;
-            this.button3.Text = "button3";
+            this.button3.Text = "Очистить";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(547, 235);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

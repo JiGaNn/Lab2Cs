@@ -25,6 +25,7 @@ namespace Lab2Cs
             }
             catch(FormatException)
             {
+                MessageBox.Show("Некорректный ввод", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             MessageBox.Show(Logic.GrammarForMoney(Logic.GetMoney(value)));
