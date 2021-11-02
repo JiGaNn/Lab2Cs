@@ -15,20 +15,40 @@ namespace Lab2Cs
         public Form2()
         {
             InitializeComponent();
+            textBox1.Text = Properties.Settings.Default.value.ToString();
         }
+        private int value;
         private void button1_Click_1(object sender, EventArgs e)
         {
-            int value;
             try
             {
                 value = int.Parse(textBox1.Text);
+                if (value < 1 || value > 9999)
+                    throw new Exception();
             }
             catch(FormatException)
             {
                 MessageBox.Show("Некорректный ввод", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            MessageBox.Show(Logic.GrammarForMoney(Logic.GetMoney(value)));
+            catch (Exception)
+            {
+                MessageBox.Show("Ограничения для n не соблюдены", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            MessageBox.Show(Logic.GrammarForMoney(Logic.GetMoney(value)), "Ответ");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.value = value;
+            Properties.Settings.Default.Save();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            Properties.Settings.Default.Reset();
         }
     }
     public class Money
@@ -79,6 +99,10 @@ namespace Lab2Cs
             if (money.copecks == 0)
             {
                 return (money.rubles + sr + " ровно");
+            }
+            else if (money.rubles == 0)
+            {
+                return (money.copecks + sc + " ровно");
             }
             else
             {
