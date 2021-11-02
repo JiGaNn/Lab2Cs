@@ -57,7 +57,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Гражданин 1 марта открыл счет в банке, вложив A руб. Через каждый месяц размер вклада увеличивается на 2% от имеющейся суммы.
+Определить:
+а) за какой месяц величина ежемесячного увеличения вклада превысит B руб.
+б) через сколько месяцев размер вклада превысит C руб.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="saveA.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAA3dJREFUSEu1lNtrVFcUh49GKOiD4ENBCrXQF1/E0r9ARGiDWtOIV5pUjcWqIBUf
+        fPShj0Kt1lDxCir1QqWGircYU5OYuWVuyYxpJoMxmZmzz5nrOZk5lzlnZn5dexw54AytJbjhY2Bm7W/2
+        WnvtJbz3tTdgBg948uybQYl19ieZS9Iko1J7J0yiayjNvg+XwyeAJQ2lINAXgePxCo4EFOwbkbH7L4Zh
+        pkGzqyhazdQALP/JjRWnPFj24xAm0hp6XFlwx7GYHWloBeHIpC0dnbJxaEzBniEJOwYZBpIackYV2RZw
+        8dpLQXx+OYSPz3oRzWjYO5oFd/wwZcsNrSAcjJbZ4UkLB3wFdD2TsO2piIdzJaSKNpLzzVTJ/FlDvIrE
+        ERJ3j2TAHQdfmFJDKwg94wb7LmKgx5OnMojofJJC30wR8YKF6RbMWyDpa/Envd56KXYPp8Ed+ycMR9wV
+        1Nm3YR3drhyVQcSW/iR+j88jki1jItOMrJP4yhuxD+Mk3v5MBnd0hXVHvMNfYjsDGnY9z2LrQAobHydx
+        I6bCL5sYk5pJFGtYcyGANReD+OiMB2OshE66F+4gHPEWb5F97StiG6XT8SSJLx4kcIvEbmbCLbbmEZXq
+        j2kVfXEVUzkbmwYYuKPDW3TEX46qrN2tYqNnHl8NiPWgDY9S9dbbM0wpEt3ULfxiW7GTTtvuUsAd7S7V
+        Ea8bzrN1IwVsdivY9DYeh83/BsWuf14gFEe8uj/DSrzxqY0Wgkl9+Gl/1hGvepBmhl1BmX5YCFy88n7a
+        EX94T2J6uQrTBu7GcrgaSePKuIyLIRnngxJ+DTD0+hnOjjVzyisinjeh2zUYJF7xJ3PEy/tEphoVKGa1
+        /qr+LyWrBoUORgMJS++mHPEHdxIsq9vI6BUUSK6YFMgp16C+A3ymZOhgBt1T252EI267PccYzQVJq+L2
+        ZA6Xw2lcoDKcozL0+iX8Qimf9jH83IKTbhEheopiqYIS/UHbrTlHvPjmLEuoFl6pNGSKFaQo6A18w38x
+        S4OJ781TxotvvHLEi36bkV4WyvUBE0obCMgG/BJHpyf8Gh9rjZf4O1dGLG9BpqwXXZ9xxqZw7WVoigZO
+        NGuRxKgHe0UdHsJdR6t/ulLNjBLjNJiitD+pWBAuTb9oWGmdGFwSy1nRiYwlLwSa1ZPCyfCyhvV9LEH4
+        B0gFXHGJ+MybAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="saveB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAA3dJREFUSEu1lNtrVFcUh49GKOiD4ENBCrXQF1/E0r9ARGiDWtOIV5pUjcWqIBUf
+        fPShj0Kt1lDxCir1QqWGircYU5OYuWVuyYxpJoMxmZmzz5nrOZk5lzlnZn5dexw54AytJbjhY2Bm7W/2
+        WnvtJbz3tTdgBg948uybQYl19ieZS9Iko1J7J0yiayjNvg+XwyeAJQ2lINAXgePxCo4EFOwbkbH7L4Zh
+        pkGzqyhazdQALP/JjRWnPFj24xAm0hp6XFlwx7GYHWloBeHIpC0dnbJxaEzBniEJOwYZBpIackYV2RZw
+        8dpLQXx+OYSPz3oRzWjYO5oFd/wwZcsNrSAcjJbZ4UkLB3wFdD2TsO2piIdzJaSKNpLzzVTJ/FlDvIrE
+        ERJ3j2TAHQdfmFJDKwg94wb7LmKgx5OnMojofJJC30wR8YKF6RbMWyDpa/Envd56KXYPp8Ed+ycMR9wV
+        1Nm3YR3drhyVQcSW/iR+j88jki1jItOMrJP4yhuxD+Mk3v5MBnd0hXVHvMNfYjsDGnY9z2LrQAobHydx
+        I6bCL5sYk5pJFGtYcyGANReD+OiMB2OshE66F+4gHPEWb5F97StiG6XT8SSJLx4kcIvEbmbCLbbmEZXq
+        j2kVfXEVUzkbmwYYuKPDW3TEX46qrN2tYqNnHl8NiPWgDY9S9dbbM0wpEt3ULfxiW7GTTtvuUsAd7S7V
+        Ea8bzrN1IwVsdivY9DYeh83/BsWuf14gFEe8uj/DSrzxqY0Wgkl9+Gl/1hGvepBmhl1BmX5YCFy88n7a
+        EX94T2J6uQrTBu7GcrgaSePKuIyLIRnngxJ+DTD0+hnOjjVzyisinjeh2zUYJF7xJ3PEy/tEphoVKGa1
+        /qr+LyWrBoUORgMJS++mHPEHdxIsq9vI6BUUSK6YFMgp16C+A3ymZOhgBt1T252EI267PccYzQVJq+L2
+        ZA6Xw2lcoDKcozL0+iX8Qimf9jH83IKTbhEheopiqYIS/UHbrTlHvPjmLEuoFl6pNGSKFaQo6A18w38x
+        S4OJ781TxotvvHLEi36bkV4WyvUBE0obCMgG/BJHpyf8Gh9rjZf4O1dGLG9BpqwXXZ9xxqZw7WVoigZO
+        NGuRxKgHe0UdHsJdR6t/ulLNjBLjNJiitD+pWBAuTb9oWGmdGFwSy1nRiYwlLwSa1ZPCyfCyhvV9LEH4
+        B0gFXHGJ+MybAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAgIAAAAEAIAAoCAEAFgAAACgAAACAAAAAAAEAAAEAIAAAAAAAAAABABx2AAAcdgAAAAAAAAAA
