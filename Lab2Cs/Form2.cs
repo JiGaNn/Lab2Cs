@@ -12,10 +12,21 @@ namespace Lab2Cs
 {
     public partial class Form2 : Form
     {
+        private void tb_KeyUp(object sender, System.Windows.Forms.KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                SendKeys.Send("{Tab}");
+            }
+        }
         public Form2()
         {
             InitializeComponent();
             textBox1.Text = Properties.Settings.Default.value.ToString();
+
+            textBox1.KeyUp += tb_KeyUp;
+            button1.KeyUp += tb_KeyUp;
+            button2.KeyUp += tb_KeyUp;
         }
         private int value;
         private void button1_Click_1(object sender, EventArgs e)

@@ -85,7 +85,7 @@ namespace Lab2Cs
             this.label2.Location = new System.Drawing.Point(487, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 15);
-            this.label2.TabIndex = 4;
+            this.label2.TabIndex = 14;
             this.label2.Text = "A =";
             // 
             // label3
@@ -94,7 +94,7 @@ namespace Lab2Cs
             this.label3.Location = new System.Drawing.Point(487, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 15);
-            this.label3.TabIndex = 5;
+            this.label3.TabIndex = 15;
             this.label3.Text = "B =";
             // 
             // label4
@@ -103,7 +103,7 @@ namespace Lab2Cs
             this.label4.Location = new System.Drawing.Point(487, 101);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 15);
-            this.label4.TabIndex = 6;
+            this.label4.TabIndex = 16;
             this.label4.Text = "C =";
             // 
             // saveA
@@ -115,7 +115,7 @@ namespace Lab2Cs
             this.saveA.Margin = new System.Windows.Forms.Padding(0);
             this.saveA.Name = "saveA";
             this.saveA.Size = new System.Drawing.Size(22, 22);
-            this.saveA.TabIndex = 7;
+            this.saveA.TabIndex = 8;
             this.saveA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.saveA.UseVisualStyleBackColor = true;
             this.saveA.Click += new System.EventHandler(this.saveA_Click);
@@ -129,7 +129,7 @@ namespace Lab2Cs
             this.saveB.Margin = new System.Windows.Forms.Padding(0);
             this.saveB.Name = "saveB";
             this.saveB.Size = new System.Drawing.Size(22, 22);
-            this.saveB.TabIndex = 8;
+            this.saveB.TabIndex = 10;
             this.saveB.UseVisualStyleBackColor = true;
             this.saveB.Click += new System.EventHandler(this.saveB_Click);
             // 
@@ -142,7 +142,7 @@ namespace Lab2Cs
             this.saveC.Margin = new System.Windows.Forms.Padding(0);
             this.saveC.Name = "saveC";
             this.saveC.Size = new System.Drawing.Size(22, 22);
-            this.saveC.TabIndex = 9;
+            this.saveC.TabIndex = 12;
             this.saveC.UseVisualStyleBackColor = true;
             this.saveC.Click += new System.EventHandler(this.saveC_Click);
             // 
@@ -155,7 +155,7 @@ namespace Lab2Cs
             this.deleteA.Margin = new System.Windows.Forms.Padding(0);
             this.deleteA.Name = "deleteA";
             this.deleteA.Size = new System.Drawing.Size(22, 22);
-            this.deleteA.TabIndex = 10;
+            this.deleteA.TabIndex = 9;
             this.deleteA.UseVisualStyleBackColor = true;
             this.deleteA.Click += new System.EventHandler(this.deleteA_Click);
             // 
@@ -181,7 +181,7 @@ namespace Lab2Cs
             this.deleteC.Margin = new System.Windows.Forms.Padding(0);
             this.deleteC.Name = "deleteC";
             this.deleteC.Size = new System.Drawing.Size(22, 22);
-            this.deleteC.TabIndex = 12;
+            this.deleteC.TabIndex = 13;
             this.deleteC.UseVisualStyleBackColor = true;
             this.deleteC.Click += new System.EventHandler(this.deleteC_Click);
             // 
@@ -190,7 +190,7 @@ namespace Lab2Cs
             this.doA.Location = new System.Drawing.Point(78, 153);
             this.doA.Name = "doA";
             this.doA.Size = new System.Drawing.Size(133, 32);
-            this.doA.TabIndex = 13;
+            this.doA.TabIndex = 4;
             this.doA.Text = "Решить а";
             this.doA.UseVisualStyleBackColor = true;
             this.doA.Click += new System.EventHandler(this.doA_Click);
@@ -200,7 +200,7 @@ namespace Lab2Cs
             this.doB.Location = new System.Drawing.Point(217, 153);
             this.doB.Name = "doB";
             this.doB.Size = new System.Drawing.Size(133, 32);
-            this.doB.TabIndex = 14;
+            this.doB.TabIndex = 5;
             this.doB.Text = "Решить б";
             this.doB.UseVisualStyleBackColor = true;
             this.doB.Click += new System.EventHandler(this.doB_Click);
@@ -210,7 +210,7 @@ namespace Lab2Cs
             this.saveAll.Location = new System.Drawing.Point(487, 153);
             this.saveAll.Name = "saveAll";
             this.saveAll.Size = new System.Drawing.Size(133, 32);
-            this.saveAll.TabIndex = 15;
+            this.saveAll.TabIndex = 6;
             this.saveAll.Text = "Сохранить всё";
             this.saveAll.UseVisualStyleBackColor = true;
             this.saveAll.Click += new System.EventHandler(this.saveAll_Click);
@@ -220,7 +220,7 @@ namespace Lab2Cs
             this.deleteAll.Location = new System.Drawing.Point(626, 153);
             this.deleteAll.Name = "deleteAll";
             this.deleteAll.Size = new System.Drawing.Size(133, 32);
-            this.deleteAll.TabIndex = 16;
+            this.deleteAll.TabIndex = 7;
             this.deleteAll.Text = "Очистить всё";
             this.deleteAll.UseVisualStyleBackColor = true;
             this.deleteAll.Click += new System.EventHandler(this.deleteAll_Click);
