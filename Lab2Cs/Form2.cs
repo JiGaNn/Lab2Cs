@@ -48,8 +48,6 @@ namespace Lab2Cs
         private void button3_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
-            Properties.Settings.Default.value = 0;
-            Properties.Settings.Default.Save();
         }
     }
     public class Money

@@ -67,7 +67,7 @@ namespace Lab2Cs
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(75, 161);
+            this.button1.Location = new System.Drawing.Point(363, 97);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 3;
@@ -77,7 +77,7 @@ namespace Lab2Cs
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(216, 161);
+            this.button2.Location = new System.Drawing.Point(135, 161);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 4;
@@ -87,7 +87,7 @@ namespace Lab2Cs
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(363, 161);
+            this.button3.Location = new System.Drawing.Point(332, 161);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 5;

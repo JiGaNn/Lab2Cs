@@ -57,22 +57,16 @@ namespace Lab2Cs
         private void deleteA_Click(object sender, EventArgs e)
         {
             textA.Text = "";
-            Properties.Settings.Default.A = 0;
-            Properties.Settings.Default.Save();
         }
 
         private void deleteB_Click(object sender, EventArgs e)
         {
             textB.Text = "";
-            Properties.Settings.Default.B = 0;
-            Properties.Settings.Default.Save();
         }
 
         private void deleteC_Click(object sender, EventArgs e)
         {
             textC.Text = "";
-            Properties.Settings.Default.C = 0;
-            Properties.Settings.Default.Save();
         }
 
         private void saveAll_Click(object sender, EventArgs e)
@@ -88,9 +82,6 @@ namespace Lab2Cs
             textA.Text = "";
             textB.Text = "";
             textC.Text = "";
-            Properties.Settings.Default.A = 0;
-            Properties.Settings.Default.B = 0;
-            Properties.Settings.Default.C = 0;
             Properties.Settings.Default.Save();
         }
 
